@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    line-height: 1.5;
+    font-family: 'Nunito',sans-serif;
+}
+html{
+    font-size: 62.5%;
+    background: #FFEFEE;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav ul, li, a{
+    color: black;
+    margin: 10px;
+    font-size: 40px;
+    transition: 0.5s;
+}
+nav ul, li, a:hover{
+    color: gray;
+    font-size: 30px;
+}
+.smoothies{
+   background: yellow;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ 
+
+.content-smoothies{
+background: #D8F800;
+flex-basis: 50%;
+margin: 50px;
+
+}
+.content-smoothies h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.content-smoothies p{
+    margin: 0 auto;
+    font-size: clamp(15px,1vw + 20px, 30px);
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #C7F66F;
+     height: 90px;
+
+}
+
+
+
