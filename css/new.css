@@ -14,7 +14,7 @@ html{
     font-size: 62.5%;
 }
 header{
-background-color:#659A00;
+background-color:#b8c0d9;
 transition-duration: 3s; 
 transition-property: all;
 transition-timing-function: ease;
@@ -27,20 +27,20 @@ align-items: center;
 justify-content: center;
 
 }
-nav ul{
+.top nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
 
-nav ul, li, a{
+.top nav ul, li, a{
     color: black;
     margin: 10px;
     font-size: 40px;
     transition: 0.5s;
 }
-nav ul, li, a:hover{
+.top nav ul, li, a:hover{
     color: gray;
     font-size: 30px;
 }
@@ -51,9 +51,8 @@ nav ul, li, a:hover{
 }
 .home{
     position: absolute;
-    text-align: center;
     top: 40%;
-    left: 50%;
+    right: 50%;
     transform: translate(-50%, -50%);
 }
 .home h3{
@@ -80,6 +79,20 @@ color: yellow;
      height: 90px;
 
 }
+.photo{
+    width: 100px;
+    height: 100px;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+.photo:hover{
+   width: 150px;
+    height: 150px;
+
+}
+
 
 
 
