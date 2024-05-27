@@ -73,6 +73,21 @@ margin: 50px;
      height: 90px;
 
 }
+.car_gen{ 
+ position: fixed; 
+ top: 20%; 
+ left: 7%;
+ border-radius: 10px;  
+} 
+ 
+ 
+ 
+ 
+.d-block_w-100{ 
+ width: 1700px; 
+ height: 600px; 
+}
+
 
 
 

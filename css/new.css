@@ -48,9 +48,8 @@ nav ul{
     height: 100vh;
 }
 .home h2,h3{
-    display: grid;
-   justify-items: start;
-  
+    display: flex;
+    justify-content: center; 
 }
 .home h3{
 font-size:45px;
@@ -58,7 +57,6 @@ color: white;
 }
 .home h2{
     font-size: 60px;
-    
     color: white;
 
 }
