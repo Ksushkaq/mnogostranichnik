@@ -43,7 +43,7 @@ nav ul, li, a:hover{
 }
 
 .smoothies{
-   background: white;
+  
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -65,6 +65,7 @@ margin: 50px;
 .content-smoothies h2{
     font-size: 40px;
     margin-bottom: 30px;
+    color: white; 
 
 }
 .content-smoothies p{
@@ -72,6 +73,7 @@ margin: 50px;
     font-size: clamp(15px,1vw + 20px, 30px);
     margin-bottom: 30px;
     text-align: justify;
+    color: white; 
 
 }
 .reviews{

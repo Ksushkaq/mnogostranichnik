@@ -52,6 +52,36 @@ nav ul, li, a:hover{
     flex-wrap: wrap;
     text-align: center;
     }
+    .content-reviews{
+flex-basis: 50%;
+margin: 50px;
+
+}
+.content-reviews h3{
+    font-size: 30px;
+    margin-bottom: 60px;
+
+}
+.content-reviews{
+    margin: 0 auto;
+    font-size: clamp(15px,1vw + 20px, 30px);
+    margin-bottom: 30px;
+    text-align: justify;
+    background: white;
+    border-radius: 20px;
+}
+.btn{
+    padding: 10px 25px;
+    border: 1px solid red;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    transition: 0.7s;
+}
+s .btn:hover{
+    color: red;
+     font-size: 27px;
+}
 
 .top{
     width: clamp(3vw + 20%, 1vw + 25%, 40%);
