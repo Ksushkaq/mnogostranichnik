@@ -13,9 +13,12 @@
 html{
     font-size: 62.5%;
 }
+body{
+    background: linear-gradient(rgba(0, 0, 0, 7),rgb(0, 0, 0,.7)), 
+    url('../image/header.jpg') no-repeat center/cover; 
+    overflow-x: hidden;
+}
 header{
-background: linear-gradient(rgb(0, 0, 0,.7),rgb(0, 0, 0,.7)), 
-url('../image/header.jpg') no-repeat center/cover;
 text-align: center;
 padding: 20px;
 display: flex;
@@ -68,7 +71,7 @@ color: white;
     margin-bottom: 30px;
 color: yellow;
 }
-.home .btn{
+.home .button{
     padding: 10px 25px;
     border: 1px solid red;
     color: white;
@@ -79,4 +82,181 @@ color: yellow;
 .home .btn:hover{
     color: red;
      font-size: 27px;
+}
+
+
+<!--начало второй страницы-->
+
+
+.smoothies{
+  
+    padding: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.smoothies-grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+  
+  .smoothies-card {
+    text-align: center;
+    padding: 20px;
+    border: 8px solid #035020c4;
+    background-color: #ebecf149;
+    border-radius: 10px;
+  }
+  
+  .smoothies-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+ 
+.content-smoothies h2{
+    font-size: 100px;
+    margin-bottom: 40px;
+    color: white; 
+
+}
+.content-smoothies p{
+    display: flex;
+    margin: 0 auto;
+    font-size: clamp(15px,1vw + 20px, 30px);
+    margin-bottom: 30px;
+    text-align: justify;
+    color: white; 
+
+}
+
+
+
+.top{
+    width: clamp(3vw + 20%, 1vw + 25%, 40%);
+    margin: 20px;
+    width: 30px;
+    
+}
+
+
+<!--начало третий страницы-->
+
+
+    .content-reviews{
+flex-basis: 50%;
+margin: 50px;
+
+}
+.content-reviews h3{
+    font-size: 30px;
+    margin-bottom: 60px;
+
+}
+
+.content-reviews{
+    margin: 0 auto;
+    font-size: clamp(15px,1vw + 20px, 30px);
+    margin-bottom: 30px;
+    text-align: justify;
+    background: white;
+    border-radius: 20px;
+}
+
+ 
+footer{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: rgb(170, 170, 170);
+    width: 100%;
+    min-height: 28rem;
+    padding: 2rem 28%;
+
+}
+
+.footer-bottom-conteiner{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-bottom-conteiner.coperight{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+       
+}
+.footer-bottom-conteiner.coperight p{
+    font-size: 1.5rem;
+
+
+}
+.pop-up{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+.pop-up.active{
+    display: block;
+}
+.pop-up-body{
+    margin: auto;
+    width: 500px;
+    background-color: rgb(255, 248, 152);
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px 15px 110px 15px ;
+    position: relative;
+}
+.pop-up-body p{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+.pop-up-body input{
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 300px;
+    padding: 17px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.pop-up-body button{
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color:orange ;
+}
+.pop-close{
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 21px;
+cursor: pointer;
 }
